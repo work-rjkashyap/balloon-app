@@ -1,0 +1,19 @@
+.balloon {
+  transition: transform 0.3s ease-out;
+}
+
+.balloon:active {
+  transform: scale(0.8); /* Scale down when clicked */
+}
+
+/* src/App.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+canvas {
+  display: block;
+}
